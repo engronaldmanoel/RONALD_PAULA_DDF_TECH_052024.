@@ -51,7 +51,8 @@ O objetivo com o modelo de Machine Learning (Random Forest) é obter previsões 
 </div> </br>
 - [Link para o pipeline dadosfera](https://app.dadosfera.ai/pt-BR/catalog/data-assets/66f4c806-3b85-4ccb-8308-104a85f88b1a) </br>
 
-## Item  3 - Sobre a Dadosfera - Explorar
+## Item  3 - Sobre a Dadosfera - Explorar </br>
+Uma série de informações sobre o dataset pode ser retirada através da plataforma Dadosfera, abaixo se encontra links e prints de etapas no qual foi necessário fazer o uploud.
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/d3fceacc-2642-43d4-b897-15f3cda83cf6" alt="matriz1" width="500px" />
 </div> </br>
@@ -63,5 +64,35 @@ O objetivo com o modelo de Machine Learning (Random Forest) é obter previsões 
 
 
 ## Item 4 - Sobre Data Quality
+<div align="center">
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/cdc5a106-505c-4216-b17a-1edfd51c1da6" alt="matriz1" width="500px" />
+</div> </br>
+
+Vamos analisar o output:
+
+- run_id: Identifica a execução, incluindo informações de tempo. </br>
 
 
+- run_results: Contém os resultados das expectativas aplicadas aos dados. Cada expectativa tem um conjunto de resultados associados. </br>
+
+
+- statistics: Fornece estatísticas gerais sobre as expectativas avaliadas, incluindo o número total de expectativas, quantas foram bem-sucedidas e a porcentagem de sucesso. </br>
+
+- meta: Inclui informações adicionais sobre a execução, como a versão do Great Expectations utilizada, a suíte de expectativas, informações sobre os dados de entrada e detalhes temporais da execução. </br>
+
+
+- checkpoint_config: Contém a configuração do checkpoint que foi executado. Um checkpoint é um conjunto de expectativas que são aplicadas regularmente aos dados para monitorar a qualidade dos mesmos ao longo do tempo. </br>
+
+
+- success: Indica se a execução foi bem-sucedida ou não. Neste caso, parece que algumas expectativas falharam (success: false). </br>
+
+
+Agora, vamos olhar mais de perto para as expectativas que falharam:
+
+Expectativa: expect_column_values_to_not_be_null para a coluna "ID_Cliente".
+Resultado: 19,822 valores nulos encontrados.
+Expectativa: expect_column_values_to_not_be_null para a coluna "Preco_Unitario ($)".
+Resultado: 10,033 valores nulos encontrados.
+Estas falhas indicam que há valores nulos nessas colunas, o que pode afetar a qualidade e integridade dos dados. Essas expectativas são importantes para garantir que os dados estejam completos e prontos para análise ou processamento posterior.
+
+Além dessas soluções específicas, é importante considerar a implementação de processos de monitoramento contínuo e de garantia de qualidade de dados para identificar e resolver problemas semelhantes no futuro. Isso pode incluir a configuração de pipelines de dados automatizados com testes regulares usando ferramentas como o Great Expectations, que ajudam a garantir a integridade e a qualidade dos dados ao longo do tempo.
