@@ -38,13 +38,30 @@ Abaixo se encontram variáveis do dataset no qual será utilizado para propor as
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/345dcd3b-6568-45b3-805a-c2b1aafafb18" alt="matriz1" width="500px" />
 </div>
-Com isso é necessário se desenhar uma estratégia de como aplicar o modelo em produção e para isso segue o fluxograma abaixo no qual foi necessário se decidir algumas etapas para implementação do 
+Com isso é necessário se desenhar uma estratégia de como aplicar o modelo em produção e para isso segue o fluxograma abaixo que possui algumas etapas para implementação do 
 algoritmo random forest:
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/ddb7a449-9a76-401d-bf4c-1b85fe936bd1" alt="matriz1" width="500px" />
 </div> </br>
+O objetivo com o modelo de Machine Learning (Random Forest) é obter previsões de menor tempo de entrega em horas dado novas informações colocadas ao modelo. E com isso implementar uma lógica no qual valorizem menor tempo e maior urgência.
 
 ## Item  2.1 - Sobre a Dadosfera - Integrar
-O objetivo do modelo de Machine Learning (Random Forest) é obter previsões de menor tempo de entrega em horas dado novas informações colocadas ao modelo. E com isso implementar uma lógica no qual valorizem menor tempo e maior urgência.
+<div align="center">
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/f264e4d4-dc91-4d3a-8859-ad11f4abb45e" alt="matriz1" width="500px" />
+</div> </br>
+- [Link para o pipeline dadosfera](https://app.dadosfera.ai/pt-BR/catalog/data-assets/66f4c806-3b85-4ccb-8308-104a85f88b1a) </br>
+
 ## Item  3 - Sobre a Dadosfera - Explorar
+<div align="center">
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/d3fceacc-2642-43d4-b897-15f3cda83cf6" alt="matriz1" width="500px" />
+</div> </br>
+- [Link para o pipeline dadosfera](https://app.dadosfera.ai/pt-BR/catalog/data-assets) </br>
+<div align="center">
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/183d36ef-aa1a-4010-a5a7-e8d1f2d19570" alt="matriz1" width="500px" />
+</div> </br>
+- [Link para o dashboard MetaBase](https://metabase-treinamentos.dadosfera.ai/auto/dashboard/table/582) </br>
+
+
 ## Item 4 - Sobre Data Quality
+
+
