@@ -1,4 +1,6 @@
 # RONALD_PAULA_DDF_TECH_052024.
+- [Link para o vídeo no youtube](https://youtu.be/XrwcjtNjl3M) </br>
+
 ## Item 0 - Sobre Agilidade e Planejamento
 Olá que todos estejam tendo um excelente dia! Bom aqui está o meu projeto técnico e logo abaixo se encontra um Gráfico de Gantt para gestão de tempo
 e gerenciamento das tarefas.
