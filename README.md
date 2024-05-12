@@ -1,9 +1,9 @@
 # RONALD_PAULA_DDF_TECH_052024.
 ## Item 0 - Sobre Agilidade e Planejamento
-Olá que todos estejam tendo um excelente dia! Bom aqui está o meu projeto técnico e logo abaixo se encontra um Gráfico de Gannt para gestão de tempo
+Olá que todos estejam tendo um excelente dia! Bom aqui está o meu projeto técnico e logo abaixo se encontra um Gráfico de Gantt para gestão de tempo
 e gerenciamento das tarefas.
 <div align="center">
-    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/d6fc5edd-f271-47d3-b63e-8474958fbea4" alt="matriz1" width="600px" />
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/23f20efc-be52-4b6b-b16b-e7da579d86f6" alt="matriz1" width="600px" />
 </div>
 Abaixo está a análise de riscos que eu desenvolvi para o projeto, os critérios analisados foram impacto x Probabilidade (Qualitativa), Para a análise de impacto o principal
 efeito analisado seria a não entrega do teste técnico que se revelaria um grau crítico. Relacionando com a probabilidade de ocorrer esse evento é crítico foi analisado que seria
@@ -19,7 +19,7 @@ O próximo passo foi desenvolver a estimativa de custos da atividade desenvolvid
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/597244d3-74b4-45f9-ba0c-e39f66dbf20a" alt="matriz1" width="500px" />
 </div>
 O custo total da atividade ficou em em volta de 926,36 Reais.
-Para analisar a interdependência do projeto é interessante observar o gráfico de gannt no qual é entendível que uma tarefa depende da outra para se iniciar logo:
+Para analisar a interdependência do projeto é interessante observar o gráfico de gantt no qual é entendível que uma tarefa depende da outra para se iniciar logo:
 Com excessão da primeira atividade todas vão ser: Inicio-Início (II): Uma atividade não pode começar até que outra atividade relacionada também comece.
 
 E o ponto crítico do projeto foi na etapa data quality no qual foi necessário pesquisar bastante sobre a biblioteca (Great Expectations) para garantir a confiabilidade dos dados. </br>
