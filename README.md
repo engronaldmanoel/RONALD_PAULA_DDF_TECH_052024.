@@ -39,7 +39,7 @@ Abaixo se encontram variáveis do dataset no qual será utilizado para propor as
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/345dcd3b-6568-45b3-805a-c2b1aafafb18" alt="matriz1" width="500px" />
 </div>
 Com isso é necessário se desenhar uma estratégia de como aplicar o modelo em produção e para isso segue o fluxograma abaixo que possui algumas etapas para implementação do 
-algoritmo random forest:
+algoritmo (Random Forest):
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/ddb7a449-9a76-401d-bf4c-1b85fe936bd1" alt="matriz1" width="500px" />
 </div> </br>
