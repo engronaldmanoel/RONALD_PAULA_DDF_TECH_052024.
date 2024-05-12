@@ -12,8 +12,9 @@ baixo pois já está sendo desenvolvido um método de gestão de tempo no qual m
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/3a3be34f-6e94-4226-a60e-fd2bfbcad3be" alt="matriz1" width="500px" />
 </div>
-O próximo passo foi desenvolver a estimativa de custos da atividade desenvolvida, no qual a planilha com as fórmulas irei disponibilizar abaixo
-- [Link para a planilha](https://docs.google.com/spreadsheets/d/1FbZAzuVXrVRpRlqQ-e2RbC344WLyGq6k/edit?usp=sharing&ouid=108988535045727431629&rtpof=true&sd=true)
+O próximo passo foi desenvolver a estimativa de custos da atividade desenvolvida, no qual a planilha com as fórmulas irei disponibilizar abaixo:</br>
+- [Link para a planilha](https://docs.google.com/spreadsheets/d/1FbZAzuVXrVRpRlqQ-e2RbC344WLyGq6k/edit?usp=sharing&ouid=108988535045727431629&rtpof=true&sd=true) </br>
+
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/597244d3-74b4-45f9-ba0c-e39f66dbf20a" alt="matriz1" width="500px" />
 </div>
@@ -30,13 +31,18 @@ Com isso
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/ef01970c-2e9d-4971-885d-7e20bd6e1042" alt="matriz1" width="500px" />
 </div>
 
-(LINK DO DATASET )
+- [Link para o .csv](https://drive.google.com/file/d/1pLK30J7WmVv6RYyNFK1ZlGkH3TNqrs0_/view?usp=sharing) </br>
+  
 A base de dados possui mais de 100.000 entradas assim como solicitado. </br>
 Abaixo se encontram variáveis do dataset no qual será utilizado para propor as melhoria de otimização.
 <div align="center">
     <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/345dcd3b-6568-45b3-805a-c2b1aafafb18" alt="matriz1" width="500px" />
 </div>
-
+Com isso é necessário se desenhar uma estratégia de como aplicar o modelo em produção e para isso segue o fluxograma abaixo no qual foi necessário se decidir algumas etapas para implementação do 
+algoritmo random forest:
+<div align="center">
+    <img src="https://github.com/engronaldmanoel/RONALD_PAULA_DDF_TECH_052024./assets/100495133/ddb7a449-9a76-401d-bf4c-1b85fe936bd1" alt="matriz1" width="500px" />
+</div> </br>
 
 ## Item  2.1 - Sobre a Dadosfera - Integrar
 O objetivo do modelo de Machine Learning (Random Forest) é obter previsões de menor tempo de entrega em horas dado novas informações colocadas ao modelo. E com isso implementar uma lógica no qual valorizem menor tempo e maior urgência.
